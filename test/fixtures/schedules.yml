@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number_room: 1
+  date: 2022-01-08 00:16:47
+  start_time: 2022-01-08 00:16:47
+  end_time: 2022-01-08 00:16:47
+
+two:
+  number_room: 1
+  date: 2022-01-08 00:16:47
+  start_time: 2022-01-08 00:16:47
+  end_time: 2022-01-08 00:16:47
