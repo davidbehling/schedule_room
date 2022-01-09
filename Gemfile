@@ -31,6 +31,21 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
+group :test, :development do
+  #gem 'faker'
+  #gem 'machinist'
+  #gem 'mocha', require: false
+  #gem 'simplecov', :require => false
+  #gem 'simplecov-rcov'
+  #gem 'simplecov-csv'
+  gem 'rspec'
+  gem 'rspec-rails'
+  #gem 'factory_bot_rails'
+  #gem 'shoulda'
+  #gem 'rails-controller-testing'
+  #gem 'parallel_tests'
+end
+
 group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
